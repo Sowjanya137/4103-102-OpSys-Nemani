@@ -1,0 +1,13 @@
+#cp versiona.sh $now1-t31.txt
+#!/bin/bash
+echo $1
+if [ -f  $1 ]
+then
+D=$( date +%F )
+#echo $D
+doit=$( cp $1 $D_t19.txt ) 
+echo $doit
+else
+echo You entered a directory name ..please eneter the file name.
+fi
+
