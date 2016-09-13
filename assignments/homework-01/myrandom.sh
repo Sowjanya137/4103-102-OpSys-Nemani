@@ -2,8 +2,8 @@
 
 n=$(cat /usr/share/dict/words | wc -l)
 l=$(( ($RANDOM * 32768 + $RANDOM) % n ))
-cat /usr/share/dict/words | head -$l | tail -1
-
+echo -n "Random Word: "$(cat /usr/share/dict/words | head -$l | tail -1)
+echo ""
 
 
 #===============Method 2 
