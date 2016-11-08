@@ -1,3 +1,4 @@
+#Sowjanya Nemani
 #Implementing the Arbitrars(waiters) so as the  philosoper will pick pick up both  or none.
 import threading
 from time import sleep
